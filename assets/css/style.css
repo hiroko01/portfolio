@@ -1,0 +1,30 @@
+body {
+    background: #fffffc;
+}
+.section {
+    margin: 50px 5px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+@media screen  {
+
+}
